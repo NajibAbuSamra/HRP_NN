@@ -1,0 +1,100 @@
+Account Code,Account Name,Account Type,Amdocs Fiscal Month,Country,Division,Org3,Portfolio,Release Id ,Release Name,Release Probability,Release Status,Release Type,Actual,Demand,Unit_Demand
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,2.14,2.23,2.23
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,CSU APAC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,1.24,2.98,2.42
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/06,INDIA,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,ISRAEL,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0.47,0.03,0.03
+56,KT CORP(56),Customer,2017/04,ISRAEL,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0.75,0.04,0.03
+56,KT CORP(56),Customer,2017/05,ISRAEL,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/06,ISRAEL,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,KOREA,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.74,0.74
+56,KT CORP(56),Customer,2017/03,KOREA,APAC-APAC,CSU APAC,APAC,111006,Phase 2,0,Development,Major upgrade,0,9.25,9.25
+56,KT CORP(56),Customer,2017/04,KOREA,APAC-APAC,CSU APAC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.98,0.8
+56,KT CORP(56),Customer,2017/04,KOREA,APAC-APAC,CSU APAC,APAC,111006,Phase 2,0,Development,Major upgrade,0,9.25,1
+56,KT CORP(56),Customer,2017/05,KOREA,APAC-APAC,CSU APAC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0.5,0
+56,KT CORP(56),Customer,2017/04,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.36,0.18
+56,KT CORP(56),Customer,2017/05,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.36,0.18
+56,KT CORP(56),Customer,2017/06,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.36,0.18
+56,KT CORP(56),Customer,2017/07,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0.18
+56,KT CORP(56),Customer,2017/08,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0.18
+56,KT CORP(56),Customer,2017/09,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0.18
+56,KT CORP(56),Customer,2017/10,KOREA,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0.18
+56,KT CORP(56),Customer,2017/04,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,1.64,0.82
+56,KT CORP(56),Customer,2017/05,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,1.64,0.82
+56,KT CORP(56),Customer,2017/06,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,1.64,0.82
+56,KT CORP(56),Customer,2017/07,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0.82
+56,KT CORP(56),Customer,2017/08,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0.82
+56,KT CORP(56),Customer,2017/09,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0.82
+56,KT CORP(56),Customer,2017/10,PHILIPPINES,APAC-APAC,CSU APAC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0.82
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,1.63,0,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,2.41,0,0
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,3.59,8.19,3
+56,KT CORP(56),Customer,2017/06,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,3.38,4,3
+56,KT CORP(56),Customer,2017/07,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,3.86,3.5,3
+56,KT CORP(56),Customer,2017/08,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,3.82,3.5,3
+56,KT CORP(56),Customer,2017/09,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,3.6,3.5,3
+56,KT CORP(56),Customer,2017/10,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0,3.5,3
+56,KT CORP(56),Customer,2017/11,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0,2.38,3
+56,KT CORP(56),Customer,2017/12,INDIA,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0,0,1.35
+56,KT CORP(56),Customer,2017/03,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0.13,0,0
+56,KT CORP(56),Customer,2017/04,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0.25,0,0
+56,KT CORP(56),Customer,2017/05,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,1.73,0,0
+56,KT CORP(56),Customer,2017/06,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,2,0,0
+56,KT CORP(56),Customer,2017/07,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,2,0,0
+56,KT CORP(56),Customer,2017/08,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,2,0,0
+56,KT CORP(56),Customer,2017/09,ISRAEL,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,1.83,0,0
+56,KT CORP(56),Customer,2017/04,TAIWAN,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0.56,0,0
+56,KT CORP(56),Customer,2017/05,TAIWAN,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0.47,0,0
+56,KT CORP(56),Customer,2017/06,TAIWAN,APAC-APAC,CSU APAC,APAC,111365,Phase 3,0,Development,Transformation,0,0,0
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,1,2.91,0.96
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0.6,1,3.91
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,1,2.91,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0,1,3.91
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,ISRAEL,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.04,0.02
+56,KT CORP(56),Customer,2017/04,ISRAEL,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.04,0
+56,KT CORP(56),Customer,2017/03,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.05,0.02
+56,KT CORP(56),Customer,2017/03,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0,0.09
+56,KT CORP(56),Customer,2017/04,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.05,0
+56,KT CORP(56),Customer,2017/04,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0,0.09
+56,KT CORP(56),Customer,2017/04,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0
+56,KT CORP(56),Customer,2017/05,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0.18
+56,KT CORP(56),Customer,2017/06,KOREA,APAC-APAC,DCC BC&S-CC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.18,0.18
+56,KT CORP(56),Customer,2017/04,PHILIPPINES,APAC-APAC,DCC BC&S-CC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0
+56,KT CORP(56),Customer,2017/05,PHILIPPINES,APAC-APAC,DCC BC&S-CC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0.82
+56,KT CORP(56),Customer,2017/06,PHILIPPINES,APAC-APAC,DCC BC&S-CC,APAC,111332,KT Fast Track CR,0,Production,Manage Services only,0,0.82,0.82
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,1,0,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0.87,0,0
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,1.99,1.5,2.25
+56,KT CORP(56),Customer,2017/06,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,1.98,3.81,2.81
+56,KT CORP(56),Customer,2017/07,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,2,4,2.5
+56,KT CORP(56),Customer,2017/08,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,2.92,4,2.97
+56,KT CORP(56),Customer,2017/09,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,2.28,4.47,3.06
+56,KT CORP(56),Customer,2017/10,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,2.5,2.5
+56,KT CORP(56),Customer,2017/11,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,1.88,2.57
+56,KT CORP(56),Customer,2017/12,INDIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0,2.57
+56,KT CORP(56),Customer,2017/06,ISRAEL,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0,0
+56,KT CORP(56),Customer,2017/08,ISRAEL,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0,0
+56,KT CORP(56),Customer,2017/09,ISRAEL,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0,0
+56,KT CORP(56),Customer,2017/06,RUSSIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0.04,0.04
+56,KT CORP(56),Customer,2017/08,RUSSIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0,0.03
+56,KT CORP(56),Customer,2017/09,RUSSIA,APAC-APAC,DCC BC&S-CC,APAC,111365,Phase 3,0,Development,Transformation,0,0.03,0.04
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC EDIT-CC,APAC,111002,Phase 1,0,Development,Major upgrade,1,0,0
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC EDIT-CC,APAC,111006,Phase 2,0,Development,Major upgrade,1,0,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC EDIT-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC EDIT-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,DCC EDIT-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,DCC EDIT-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,CHINA,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,5.73,7.69,8.61
+56,KT CORP(56),Customer,2017/03,INDIA,APAC-APAC,DCC RM-CC,APAC,111006,Phase 2,0,Development,Major upgrade,5,11.91,17.74
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,1.38,6.69,0
+56,KT CORP(56),Customer,2017/04,INDIA,APAC-APAC,DCC RM-CC,APAC,111006,Phase 2,0,Development,Major upgrade,5.52,11.91,22.65
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/05,INDIA,APAC-APAC,DCC RM-CC,APAC,111006,Phase 2,0,Development,Major upgrade,1,3.91,4.46
+56,KT CORP(56),Customer,2017/06,INDIA,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/06,INDIA,APAC-APAC,DCC RM-CC,APAC,111006,Phase 2,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,IRELAND,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0,0
+56,KT CORP(56),Customer,2017/03,ISRAEL,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.25,0.33
+56,KT CORP(56),Customer,2017/04,ISRAEL,APAC-APAC,DCC RM-CC,APAC,111002,Phase 1,0,Development,Major upgrade,0,0.25,0
