@@ -23,6 +23,7 @@ library(neuralnet)
 scaled <- subset(data, select = c("Demand", "Unit_Demand"))
 
 NN.results <- compute(NN, scaled)
+#####ADD ERROR TO DISPLAY, IF NOT JUST PLOT###
 
 #save neural network
 save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
