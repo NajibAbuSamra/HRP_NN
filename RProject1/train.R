@@ -8,9 +8,6 @@ if (length(args) == 0) {
     args[2] = 'e:/git downloads/hrp_nn/rproject1/output.csv'
 }
 
-#temp
-#args[1] = 'c:/gitdownloads/hrp_nn/rproject1/small.csv'
-
 #Read Data
 data = read.csv (args[1], header = T)
 
@@ -25,7 +22,11 @@ data <- data[, sapply(data, is.numeric)]
 max <- apply(data, 2, max)
 min <- apply(data, 2, min)
 scaled = as.data.frame(scale(data, center = min, scale = max - min))
+is.nan.data.frame <- function(x)
+    do.call(cbind, lapply(x, is.nan))
 
+
+scaled$ReleaseStatusID[is.nan(scaled$ReleaseStatusID)] <- 1
 ## Fit neural network 
 
 # load library
@@ -42,7 +43,7 @@ size = round((size+1) / 2);
 # fit neural network
 set.seed(2)
 start_time <- Sys.time()
-NN = neuralnet(Actual ~ AccountID + CountryID + OrgID + PortfolioID + ReleaseID + ReleaseStatusID + Demand + UnitDemand, data, hidden = size, linear.output = T)
+NN = neuralnet(Actual ~ AccountID + CountryID + OrgID + PortfolioID + ReleaseID + ReleaseProbability + ReleaseStatusID + Demand + UnitDemand + DemandAVG, scaled, hidden = size, linear.output = T)
 end_time <- Sys.time()
 
 train_time = end_time - start_time
@@ -52,4 +53,4 @@ print(train_time)
 plot(NN)
 
 #save neural network
-save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
+save(NN, file = 'e:/git downloads/hrp_nn/rproject1/network')

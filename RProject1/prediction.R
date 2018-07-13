@@ -8,7 +8,7 @@ if (length(args) == 0) {
 }
 
 #load trained neural network
-load('c:/gitdownloads/hrp_nn/rproject1/network')
+load ('e:/git downloads/hrp_nn/rproject1/network')
 
 #Read Data
 data = read.csv(args[1], header = T)
@@ -20,11 +20,12 @@ data <- data[, sapply(data, is.numeric)]
 # load library
 library(neuralnet)
 
-scaled <- subset(data, select = c("Demand", "Unit_Demand"))
+scaled <- subset(data, select = c("AccountID","CountryID","OrgID","PortfolioID","ReleaseID","ReleaseProbability","ReleaseStatusID","Demand","UnitDemand","DemandAVG"))
 
 NN.results <- compute(NN, scaled)
 #####ADD ERROR TO DISPLAY, IF NOT JUST PLOT###
+print(NN$result.matrix)
 
 #save neural network
-save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
+save(NN, file = 'e:/git downloads/hrp_nn/rproject1/network')
 write.csv(NN.results,args[2])
