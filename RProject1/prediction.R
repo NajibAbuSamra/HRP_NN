@@ -8,7 +8,7 @@ if (length(args) == 0) {
 }
 
 #load trained neural network
-load('c:/gitdownloads/hrp_nn/rproject1/network')
+load ('e:/git downloads/hrp_nn/rproject1/network')
 
 #Read Data
 data = read.csv(args[1], header = T)
@@ -29,5 +29,6 @@ NN.results <- compute(NN, scaled)
 #print(NN$result.matrix)
 
 #save neural network and output
-save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
+#No need to save unless re-trained
+#save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
 write.csv(NN.results, args[2])
