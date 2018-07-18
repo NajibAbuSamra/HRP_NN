@@ -47,5 +47,8 @@ print(train_time)
 # plot neural network
 plot(NN)
 
-#save neural network
-save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
+save(NN, file = 'e:/git downloads/hrp_nn/rproject1/network')
+
+###### UTIL #######
+#Retrain a neural net
+#NNetwork <- neuralnet(formula, data, startweights = NNetwork$weights)
