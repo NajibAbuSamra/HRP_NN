@@ -8,7 +8,7 @@ if (length(args) == 0) {
 }
 
 #load trained neural network
-load ('e:/git downloads/hrp_nn/rproject1/network')
+load('c:/gitdownloads/hrp_nn/rproject1/network')
 
 #Read Data
 data = read.csv(args[1], header = T)
@@ -20,7 +20,7 @@ data <- data[, sapply(data, is.numeric)]
 # load library
 library(neuralnet)
 
-scaled <- subset(data, select = c("AccountID","CountryID","OrgID","PortfolioID","ReleaseID","Demand","UnitDemand","DemandAVG","DeltaMonth"))
+scaled <- subset(data, select = c("Demand","UnitDemand","DemandAVG","DeltaMonth"))
 
 NN.results <- compute(NN, scaled)
 #NN = neuralnet(Actual ~ AccountID + CountryID + OrgID + PortfolioID + ReleaseID + Demand + UnitDemand + DemandAVG + DeltaMonth, scaled,  startweights = NN$weights, stepmax = 1e6)

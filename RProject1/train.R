@@ -14,17 +14,17 @@ data = read.csv (args[1], header = T)
 
 ## Scale data for neural network
 data <- data[, sapply(data, is.numeric)]
-#data <- subset(data, select = c("Actual","AccountID", "CountryID", "OrgID", "PortfolioID", "ReleaseID", "Demand", "UnitDemand", "DemandAVG", "DeltMonth"))
 
-max <- apply(data, 2, max)
-min <- apply(data, 2, min)
-scaled = as.data.frame(scale(data, center = min, scale = max - min))
+scaled_1 <- subset(data, select = c("Actual","Demand", "UnitDemand", "DemandAVG", "DeltaMonth"))
+max <- apply(scaled_1, 2, max)
+min <- apply(scaled_1, 2, min)
+scaled = as.data.frame(scale(scaled_1, center = min, scale = max - min))
 is.nan.data.frame <- function(x)
     do.call(cbind, lapply(x, is.nan))
 
 
-scaled$ReleaseStatusID[is.nan(scaled$ReleaseStatusID)] <- 1
-scaled$DeltaMonth[is.nan(scaled$DeltaMonth)] <- 1
+#scaled$ReleaseStatusID[is.nan(scaled$ReleaseStatusID)] <- 1
+#scaled$DeltaMonth[is.nan(scaled$DeltaMonth)] <- 1
 ## Fit neural network 
 
 # load library
@@ -38,7 +38,7 @@ size = round((size+1) / 2);
 # fit neural network
 set.seed(2)
 start_time <- Sys.time()
-NN = neuralnet(Actual ~ AccountID + CountryID + OrgID + PortfolioID + ReleaseID + Demand + UnitDemand + DemandAVG + DeltaMonth, scaled, hidden = size, linear.output = T)
+NN = neuralnet(Actual ~ Demand + UnitDemand + DemandAVG + DeltaMonth, scaled, hidden = size, linear.output = T)
 end_time <- Sys.time()
 
 train_time = end_time - start_time
@@ -47,7 +47,7 @@ print(train_time)
 # plot neural network
 plot(NN)
 
-save(NN, file = 'e:/git downloads/hrp_nn/rproject1/network')
+save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
 
 ###### UTIL #######
 #Retrain a neural net
