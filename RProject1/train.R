@@ -1,11 +1,7 @@
 args = commandArgs(trailingOnly = TRUE)
 # test if there is at least one argument: if not, return an error
 if (length(args) == 0) {
-    args[1] = 'e:/git downloads/hrp_nn/rproject1/train.csv'
-    args[2] = 'e:/git downloads/hrp_nn/rproject1/output.csv'
-} else if (length(args) == 1) {
-    # default output file
-    args[2] = 'e:/git downloads/hrp_nn/rproject1/output.csv'
+    args[1] = 'c:/gitdownloads/hrp_nn/rproject1/train.csv'
 }
 
 #Read Data
@@ -18,6 +14,7 @@ data = read.csv (args[1], header = T)
 
 ## Scale data for neural network
 data <- data[, sapply(data, is.numeric)]
+#data <- subset(data, select = c("Actual","AccountID", "CountryID", "OrgID", "PortfolioID", "ReleaseID", "Demand", "UnitDemand", "DemandAVG", "DeltMonth"))
 
 max <- apply(data, 2, max)
 min <- apply(data, 2, min)
@@ -27,14 +24,12 @@ is.nan.data.frame <- function(x)
 
 
 scaled$ReleaseStatusID[is.nan(scaled$ReleaseStatusID)] <- 1
+scaled$DeltaMonth[is.nan(scaled$DeltaMonth)] <- 1
 ## Fit neural network 
 
 # load library
 library(neuralnet)
 
-# creating training and test set
-#trainNN = scaled[index,]
-#testNN = scaled[-index,]
 
 # count columns (number of input nodes) and set hidden = columns/2
 size = ncol(scaled)
@@ -43,7 +38,7 @@ size = round((size+1) / 2);
 # fit neural network
 set.seed(2)
 start_time <- Sys.time()
-NN = neuralnet(Actual ~ AccountID + CountryID + OrgID + PortfolioID + ReleaseID + ReleaseProbability + ReleaseStatusID + Demand + UnitDemand + DemandAVG, scaled, hidden = size, linear.output = T)
+NN = neuralnet(Actual ~ AccountID + CountryID + OrgID + PortfolioID + ReleaseID + Demand + UnitDemand + DemandAVG + DeltaMonth, scaled, hidden = size, linear.output = T)
 end_time <- Sys.time()
 
 train_time = end_time - start_time
@@ -53,4 +48,4 @@ print(train_time)
 plot(NN)
 
 #save neural network
-save(NN, file = 'e:/git downloads/hrp_nn/rproject1/network')
+save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
