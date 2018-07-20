@@ -5,6 +5,7 @@ if (length(args) == 0) {
 } else if (length(args) == 1) {
     # default output file
     args[2] = 'c:/gitdownloads/hrp_nn/rproject1/output.csv'
+    #x = 'c:/gitdownloads/hrp_nn/rproject1/output.csv'
 }
 
 #load trained neural network
@@ -31,4 +32,13 @@ NN.results <- compute(NN, scaled)
 #save neural network and output
 #No need to save unless re-trained
 #save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
-write.csv(NN.results, args[2])
+
+#add results column to the original data
+data$prediction <- paste(NN.results$net.result)
+#df$x <- paste(df$n, df$s)
+#df
+#   n  s     b    x
+# 1 2 aa  TRUE 2 aa
+# 2 3 bb FALSE 3 bb
+# 3 5 cc  TRUE 5 cc
+write.csv(data, args[2])
