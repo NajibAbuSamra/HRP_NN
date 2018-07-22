@@ -9,14 +9,14 @@ if (length(args) == 0) {
 }
 
 #load trained neural network
-load('c:/gitdownloads/hrp_nn/rproject1/network')
+load('E:/git downloads/HRP_NN/RProject1/network')
 
 #Read Data
 data = read.csv(args[1], header = T)
 
 
-## Scale data for neural network
-data <- data[, sapply(data, is.numeric)]
+# Unneded as we select a subset which is only the required cumeric columns
+#data <- data[, sapply(data, is.numeric)]
 
 # load library
 library(neuralnet)
@@ -41,4 +41,4 @@ data$prediction <- paste(NN.results$net.result)
 # 1 2 aa  TRUE 2 aa
 # 2 3 bb FALSE 3 bb
 # 3 5 cc  TRUE 5 cc
-write.csv(data, args[2])
+write.csv(data, args[2],row.names = F)
