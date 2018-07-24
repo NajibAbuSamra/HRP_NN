@@ -34,7 +34,12 @@ NN.results <- compute(NN, scaled)
 #save(NN, file = 'c:/gitdownloads/hrp_nn/rproject1/network')
 
 #add results column to the original data
-data$prediction <- paste(NN.results$net.result)
+results <- as.numeric(as.character(NN.results$net.result))
+results <- abs(results)
+data$prediction <- paste(results)
+#fixedPrediction <- results + scaled$DemandAVG
+#data$prediction <- paste(fixedPrediction)
+
 #df$x <- paste(df$n, df$s)
 #df
 #   n  s     b    x
